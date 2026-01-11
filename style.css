@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=BBH+Bartle&family=Bungee&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Geom:ital,wght@0,300..900;1,300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+US+Trad+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.head{
+background-color: #eaad4c;
+max-width:100%;
+height:50px ;
+}
+
+.collapse .link a:hover{
+color:#eaad4c !important ;
+transition: all 0.2 ease-in-out !important;
+}
+
+.hero{
+    background-image: url(./images/slider-1.jpg);
+    background-size: cover;
+   max-width: 100%;
+   height: 600px;
+}
+
+.hero-cards {
+  position: relative;
+  margin-top: -100px; 
+  z-index: 2;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.card1, .card2, .card3 {
+  background: white;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.about{
+    max-width: 100%;
+    position: relative;
+  
+}
+
+.donate-btn{
+  position: absolute;
+left: 24%;
+top:180px ;
+  z-index: 2;
+  background-color:#f9c065;
+}
+
+.donate-btn:hover{
+  background-color: #eaad4c !important;
+}
+.sec{
+  position: absolute;
+left: 55%;
+top:180px ;
+  z-index: 2;
+  background-color:#f9c065;
+}
+
+.sec:hover{
+  background-color: #eaad4c !important;
+}
+.child1, .child2, .child3{
+  background-color: white;
+}
+
+.third{
+  position: absolute;
+left: 85%;
+top:180px ;
+  z-index: 2;
+  background-color:#f9c065;
+}
+
+.third:hover{
+  background-color: #eaad4c !important;
+}
+
+.child1 img:hover{
+ opacity: 0.8;
+}
+.child2 img:hover{
+ opacity: 0.8;
+}
+
+.child3 img:hover{
+ opacity: 0.8;
+}
+.history{
+  position: relative;
+}
+.top{
+  background-color: #f4e1c2;
+  width: 500px;
+  height: 400px;
+  border-radius:0px 0px 400px 0px;
+position: absolute;
+top: -50px;
+left: -50px;
+}
+.end{
+  background-color: #f4e1c2;
+  width: 500px;
+  height: 300px;
+position: absolute;
+top: 245px;
+right: 0px;
+
+clip-path: circle(48% at 51% 100%);
+
+
+
+}
+
+.his1{
+  z-index: 1;
+  background-color: #f7f9fa;
+  border: 2px dotted gray;
+}
+.content2 .his1 img{
+  width:130px ;
+  height:130px ;
+  border-radius: 50%;
+  margin-left: 110px;
+}
+
+.his2, .his3{
+z-index: 1;
+}
+
+.carousel .carousel-caption{
+  margin-bottom:120px !important ;
+}
+
+.feature{
+  background-image: url(./images/featured-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+max-width: 100%;
+height: auto;
+}
+
+
+.feature h1{
+  font-family: "Fjalla One", sans-serif !important;
+  font-size: 50px !important;
+}
+
+.progress-container {
+    width: 100%;
+    padding: 50px 0; 
+}
+
+.progress-bar-bg {
+    width: 100%;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    position: relative;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #f2a95c; 
+    border-radius: 10px;
+    position: relative;
+}
+
+.percent-circle {
+    position: absolute;
+    right: -25px; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #f2a95c;
+    border: 4px solid rgba(242, 169, 92, 0.4); 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.percent-circle span {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pro .row img{
+ transition: transform 0.2s ease-in-out !important;
+}
+
+.pro .row img:hover{
+  transform: scale(1.1) !important;
+}
+
+.counter{
+ background-image: url(./images/counters-bg.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ max-width: 200%;
+ height:auto ;
+}
+
+.donet{
+  background-color: #eaad4c;
+  color: white;
+  width: 100px;
+  height: 60px;
+}
+
+.event{
+  max-width: 200% !important;
+}
+
+.story{
+  background-color: white;
+  transition: all 0.3s ease !important;
+}
+
+.story:hover{
+  transform:scale(1.05);
+}
+.story2{
+  background-color: white;
+   transition: all 0.3s ease !important;
+}
+
+.story3{
+  background-color: white;
+   transition: all 0.3s ease !important;
+}
+
+.story2:hover{
+  transform:scale(1.05);
+}
+
+.story3:hover{
+  transform:scale(1.05);
+}
+
+footer{
+background-color: #2e2929;
+height: auto;
+max-width: 300%;
+}
+
+.foot2{
+  list-style: none;
+}
+.foot2 li{
+  line-height: 39px;
+  transition: all 0.5 ease-in;
+}
+
+.foot2 li:hover{
+  color: #fdc771;
+  text-decoration: underline;
+}
+
+.foot3{
+  background-image: url(./images/map.png);
+  background-repeat: no-repeat;
+}
+
+body {
+  padding-top: 100px;
+}
+
+.buttons .button{
+  padding: 10px 20px;
+}
+
+.buttons .button1{
+    padding: 9px 15px;
+}
+.buttons .button2{
+    padding: 9px 15px;
+}
+
+iframe{
+  max-width: 200% !important;
+}
+.form{
+  position: relative;
+  background-color: rgb(255, 253, 253);
+  margin-top: -150px;
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.forms{
+  width: 100%;
+}

@@ -1,0 +1,142 @@
+@media(max-width:760px){
+.head .info .icons{
+    display: none !important;
+}
+}
+
+@media(max-width:390px){
+ .head .info p{
+       margin-left: 0px !important;
+      
+    }
+}
+
+@media(max-width:348px){
+    .head{
+         height:80px !important; 
+    }
+}
+
+@media(max-width:903px){
+    .hero .content p{
+        display: none !important;
+    }
+}
+
+@media(max-width:735px){
+    .donate-btn{
+        top: 180px !important;
+    }
+    .sec{
+        top:800px !important;
+       
+    }
+    .third{
+           top:1440px !important;
+           left: 60% !important;
+    }
+}
+@media(max-width:360px){
+.donate-btn{
+    display: none !important;
+}
+ .sec{
+  display: none !important;
+ }
+   .third{
+  display: none !important;
+   }
+
+}
+ @media(max-width:368px){
+    .donate-btn{
+        top: 150px !important;
+    }
+ }
+
+ @media(max-width:340px){
+    .donate-btn{
+        top: 120px !important;
+    }
+ }
+
+ @media(max-width:372px){
+    .sec{
+        top:900px !important;
+       
+    }
+ }
+
+ @media(max-width:386px){
+    .sec{
+        top:900px !important;
+       
+    }
+ }
+
+
+
+@media(max-width:391px){
+.content2 .his1 img{
+      margin-left: 40px !important; 
+}
+}
+
+@media(max-width:275px){
+.content2 .his1 img{
+       margin-left: 0px !important; 
+}
+}
+@media(max-width:848px){
+   .end{
+    display: none !important;
+   }
+}
+
+@media(max-width:470px){
+     .top{
+        width: 200px !important;
+    }
+}
+
+@media(max-width:470px){
+    .hero-cards{
+        margin-top: 0px !important;
+    }
+}
+@media(max-width:897px){
+    .carousel .carousel-caption{
+  margin-bottom:0px !important ;
+  margin-top: 50px !important;
+}
+.circle1{
+display: none !important;
+}
+.circle2{
+display: none !important;
+}
+}
+
+@media(max-width:295px){
+    .feature .content{
+        margin-left: 0px !important;
+        padding: 0px !important;
+    }
+    .counter .counter2{
+        margin-left: 0px !important;
+    }
+}
+
+@media(max-width:900px){
+    .testes .test{
+        display: flex !important;
+    flex-wrap: wrap !important;
+    }
+
+    .logos{
+        display: flex !important;
+      gap: 30px !important;
+    }
+}
+
+
